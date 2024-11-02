@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "touch .env && node --env-file=.env dist/main.js"
+    "start": "touch .env && vite preview"
   },
   "dependencies": {
     "@mantine/core": "^7.13.4",
